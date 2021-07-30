@@ -21,7 +21,7 @@ bot=commands.Bot(command_prefix="!", description="this is a jarf's helper bot")
 # Events
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name="Hola que hace", url="https://www.youtube.com/watch?v=lcYJhHqotIQ"))
+    await bot.change_presence(activity=discord.Streaming(name="Hola que hace", url="https://www.youtube.com/watch?v=qGk4E9ss95s"))
     # use this to generate and keep logs
     print("Hey everyone! I'm online now")
 
